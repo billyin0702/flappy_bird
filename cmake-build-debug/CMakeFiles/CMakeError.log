@@ -1,0 +1,41 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/billyin/Documents/College/Courses/Freshmen/2021 Q3 Spring/CS 211/Final Project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6340a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6340a.dir/build.make CMakeFiles/cmTC_6340a.dir/build
+Building CXX object CMakeFiles/cmTC_6340a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wcast-align=strict -o CMakeFiles/cmTC_6340a.dir/src.cxx.o -c "/Users/billyin/Documents/College/Courses/Freshmen/2021 Q3 Spring/CS 211/Final Project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_6340a
+"/Users/billyin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6340a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6340a.dir/src.cxx.o  -o cmTC_6340a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/billyin/Documents/College/Courses/Freshmen/2021 Q3 Spring/CS 211/Final Project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59f9a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_59f9a.dir/build.make CMakeFiles/cmTC_59f9a.dir/build
+Building CXX object CMakeFiles/cmTC_59f9a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Werror=bool-compare -o CMakeFiles/cmTC_59f9a.dir/src.cxx.o -c "/Users/billyin/Documents/College/Courses/Freshmen/2021 Q3 Spring/CS 211/Final Project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_59f9a
+"/Users/billyin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_59f9a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_59f9a.dir/src.cxx.o  -o cmTC_59f9a 
+
+
+Source file was:
+int main() { return 0; }
